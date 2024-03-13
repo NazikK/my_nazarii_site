@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ https://chitawebui131.github.io/Nazarii }}
+      url:  https://chitawebui131.github.io/Nazarii 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
