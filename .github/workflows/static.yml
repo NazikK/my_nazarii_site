@@ -19,14 +19,14 @@ permissions:
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
-      url:  https://chitawebui131.github.io/my_nazarii_site
+      url:  https://chitawebui131.github.io/my_myyourname_site
 
     runs-on: ubuntu-latest
     steps:
